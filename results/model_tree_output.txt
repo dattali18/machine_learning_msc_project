@@ -1,0 +1,29 @@
+
+========================================
+PATIENT REPORT (ID: 527)
+========================================
+Final Prediction:  HEART DISEASE
+Risk Probability:  100.00%
+----------------------------------------
+DECISION PATH (Why this prediction?):
+  • Rule Checked: Is cp <= 0.50?
+    -> Patient Value: 0.00
+    -> Result: <= (moving down tree...)
+  • Rule Checked: Is ca <= 0.50?
+    -> Patient Value: 0.00
+    -> Result: <= (moving down tree...)
+  • Rule Checked: Is thal <= 2.50?
+    -> Patient Value: 2.00
+    -> Result: <= (moving down tree...)
+  • Rule Checked: Is exang <= 0.50?
+    -> Patient Value: 0.00
+    -> Result: <= (moving down tree...)
+  • Rule Checked: Is thalach <= 96.50?
+    -> Patient Value: 163.00
+    -> Result: > (moving down tree...)
+  • Rule Checked: Is chol <= 316.50?
+    -> Patient Value: 209.00
+    -> Result: <= (moving down tree...)
+
+  • RESULT: Reached Leaf Node. Prediction = HEART DISEASE
+========================================
